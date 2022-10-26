@@ -12,7 +12,7 @@
     <header class="header">
         <div class="container">
             <div class="header__logo">
-                Maxey Realty
+                Travel Nurse Realty
             </div>
             <div class="menu">
                 <a  href="#" class="header__menu-link header__menu-link--active">Home</a>

@@ -67,7 +67,6 @@ table {
   font-size: 2.3rem;
   font-weight: 700;
   text-transform: uppercase;
-  text-decoration: none;
 }
 .header__menu {
   display: flex;
@@ -81,7 +80,7 @@ table {
   text-decoration: none;
 }
 .header__menu-link:hover, .header__menu-link--active {
-  background: #3366cc;
+  background: #234dd4;
   color: white;
 }
 .header__account {
@@ -95,12 +94,7 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #3366cc;
+  border: 1px solid #234dd4;
   margin-right: 1.5rem;
   color: #3366cc;
-  text-decoration: none;
-}
-.header__account-link--anchor {
-  margin-right: 1.5rem;
-  text-decoration: none;
 }
