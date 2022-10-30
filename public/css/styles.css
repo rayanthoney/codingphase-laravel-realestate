@@ -78,7 +78,46 @@ table {
      object-position: center;
   opacity: 0.8;
 }
-
+.listings-page .listings-filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.listings-page .listings-filter__wrapper {
+  display: flex;
+  background: white;
+  border-radius: 5px;
+  padding: 20px;
+  position: relative;
+  transform: translate(0, -50%);
+}
+.listings-page .listings-filter__option, .listings-page .listings-filter__button {
+  padding: 0 15px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid rgb(245, 246, 247);
+  margin-right: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: 600;
+}
+.listings-page .listings-filter__option:hover, .listings-page .listings-filter__button:hover {
+  background: rgb(245, 246, 247);
+}
+.listings-page .listings-filter__button {
+  margin-right: 0;
+  border: 1px solid rgb(219, 105, 29);
+}
+.listings-page .listings-filter__button:hover {
+  color: white;
+  background: rgb(219, 105, 29);
+}
+.listings-page .listings-filter .fa-caret-down {
+  margin-left: 1rem;
+}
 .header {
   padding: 20px 0;
 }
