@@ -34,7 +34,7 @@ Route::get('/register', function () {
 });
 // User Saved listings
 Route::get('/account/saved', function () {
-    return view('welcome');
+    return view('pages/saved-listings');
 });
 // User Showing Status
 Route::get('/account/show-status', function () {
