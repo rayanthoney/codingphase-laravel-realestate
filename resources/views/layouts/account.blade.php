@@ -40,7 +40,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                links
+                    <div class="account-menu">
+                        <h2>Menu</h2>
+                        <a href="/account/saved">Saved Listings</a>
+                         <a href="/account/show-status">Listings Request Status</a>
+                    </div>
                 </div>
                 <div class="col-md-9">
                 @yield('content')
