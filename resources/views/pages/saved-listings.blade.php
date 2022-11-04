@@ -1,13 +1,15 @@
 @extends('layouts.account')
 
+@section('page-title', 'User Saved Listings - Smith Realty')
+@section('page-bg', 'https://images.pexels.com/photos/842682/pexels-photo-842682.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260')
 @section('content')
+
     {{-- Beginning of Listings Properties --}}
-    <div class="listings-properties">
-      
+    <div class="listings-properties">      
         <div class="row">
           @for ($i = 1; $i <= 12; $i++)
             <div class="col-sm-12 col-lg-4 col-xl-4">
-              <a href="/listing/2123-grand-ave-miami-fl-33456/1" class="listings-properties__item">
+              <a class="listings-properties__item" href="/listing/2123-grand-ave-miami-fl-33456/1">
                 <img src="https://myersandmyersrealestate.com/wp-content/uploads/2017/12/Home-Buyers-In-Albuquerque-NM.jpg">
                 <div class="listings-properties__saved ">
                   <i class="fa-solid fa-heart"></i>
