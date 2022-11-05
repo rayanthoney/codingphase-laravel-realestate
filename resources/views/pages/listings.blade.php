@@ -1,5 +1,5 @@
 @extends('layouts.main')
-{{-- @section('page-title', 'All Properties - Smith Realty') --}}
+@section('page-title', 'All Properties - Smith Realty')
 
 @section('content')
 {{-- Beginning of Listings Page --}}
